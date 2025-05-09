@@ -9,6 +9,7 @@ const (
 	_
 	AnimateActionStopSleep
 	AnimateActionCriticalHit
+	_
 	AnimateActionMagicCriticalHit
 )
 
