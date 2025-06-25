@@ -49,7 +49,7 @@ const (
 	EntityDataKeyContainerSize
 	EntityDataKeyContainerStrengthModifier
 	EntityDataKeyBlockTarget
-	EntityDataKeyInventory
+	EntityDataKeyInvulnerableTicks
 	EntityDataKeyTargetA
 	EntityDataKeyTargetB
 	EntityDataKeyTargetC
@@ -264,6 +264,8 @@ const (
 	EntityDataFlagCollidable
 	EntityDataFlagWASDAirControlled
 	EntityDataFlagDoesServerAuthOnlyDismount
+	EntityDataFlagBodyRotationAlwaysFollowsHead
+	EntityDataFlagCount
 )
 
 const (
